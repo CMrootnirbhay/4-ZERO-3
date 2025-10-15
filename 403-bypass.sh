@@ -13,7 +13,7 @@ termwidth="$(tput cols)"
 function print(){
 	status=$(echo ${code} | awk '{print $2}'|sed 's/,$//g')
 	if [[ ${status} =~ 2.. ]];then
-			printf "${green} ${code} ${end} 👌\n${payload}\n"
+			printf "${green} ${code} ${end} 👍\n${payload}\n"
 	elif [[ ${status} =~ 3.. ]]; then
 			printf "${yellow} ${code} ${end}\n"
 	elif [[ ${status} =~ 5.. ]]; then
