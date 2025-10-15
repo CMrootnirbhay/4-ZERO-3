@@ -24,7 +24,7 @@ function print(){
 }
 function banner(){
 	echo "💀💀💀💀💀💀💀💀💀"
-	echo -e "💀$green Have a beer🍺💀 $end"
+	echo -e "💀$green Wait for magic💀 $end"
 	echo "💀💀💀💀💀💀💀💀💀"
 	echo -e "     ${cyan}- twitter.com/Dheerajmadhukar : @me_dheeraj${end}"
 }
